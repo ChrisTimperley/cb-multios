@@ -1,8 +1,11 @@
 FROM ubuntu:14.04
 WORKDIR /challenge
 RUN apt-get update \
+ && apt-get install -y wget \
+ && wget -O - http://llvm.org/apt/llvm-snapshot.gpg.key | apt-key add - \
+ && echo "deb http://llvm.org/apt/trusty/ llvm-toolchain-trusty-3.8 main" >> /etc/apt/sources.list \
+ && apt-get update \
  && apt-get install -y \
-      wget \
       vim \
       cmake \
       python \
@@ -10,7 +13,8 @@ RUN apt-get update \
       python-dev \
       build-essential \
       bash \
-      clang \
+      clang-3.8 \
+      lldb-3.8 \
       libssl-dev \
       gcc-multilib \
       g++-multilib \
@@ -18,7 +22,9 @@ RUN apt-get update \
       libc6-dev-i386 \
       pkg-config \
       libpng12-dev \
-      libfreetype6-dev
+      libfreetype6-dev \
+ && ln -s /usr/bin/clang-3.8 /usr/bin/clang \
+ && ln -s /usr/bin/clang++-3.8 /usr/bin/clang++
 # install cmake 3.1
 RUN cd /tmp \
  && wget http://www.cmake.org/files/v3.1/cmake-3.1.3.tar.gz \
