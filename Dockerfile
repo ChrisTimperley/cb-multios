@@ -24,7 +24,9 @@ RUN apt-get update \
       libpng12-dev \
       libfreetype6-dev \
  && ln -s /usr/bin/clang-3.8 /usr/bin/clang \
- && ln -s /usr/bin/clang++-3.8 /usr/bin/clang++
+ && ln -s /usr/bin/clang++-3.8 /usr/bin/clang++ \
+ && apt-get clean \
+ && rm -rf /var/lib/apt/lists/*
 # install cmake 3.1
 RUN cd /tmp \
  && wget http://www.cmake.org/files/v3.1/cmake-3.1.3.tar.gz \
