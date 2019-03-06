@@ -35,6 +35,9 @@ import zipfile
 from generator.actions import Actions
 from generator.graph import Graph
 
+_DIR_TOOLS = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(_DIR_TOOLS)
+
 
 def get_attribute(item, name, default=None):
     if name in item:
