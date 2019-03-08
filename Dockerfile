@@ -46,3 +46,5 @@ COPY include /challenge/include
 COPY exclude /challenge/exclude
 COPY challenges challenges
 RUN ./build.sh
+COPY makepolls.sh .
+RUN ./genpolls.sh || exit 0
