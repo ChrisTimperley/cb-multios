@@ -48,3 +48,4 @@ COPY challenges challenges
 RUN ./build.sh
 COPY makepolls.sh .
 RUN ./genpolls.sh || exit 0
+COPY test.sh .

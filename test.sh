@@ -1,10 +1,31 @@
 #!/bin/bash
-name=$1
 pushd /challenge/tools
-python cb-test.py \
-  --directory "/challenge/build/challenges/${name}" \
-  --xml_dir "/challenge/build/challenges/${name}" \
-  --concurrent 1 \
-  --timeout 5 \
-  --negotiate_seed \
-  --cb "${name}"
+timeout=15
+name=$1
+test_name=$2
+dir_challenge="/challenge/challenges/${name}"
+dir_xml="${dir_challenge}/poller/for-release"
+dir_build="/challenge/build/challenges/${name}"
+bin_challenge="${dir_build}/${name}"
+
+case $test_name in
+  p*)
+    test_name=${test_name#"p"}
+    test_file="${dir_xml}/GEN_00000_$(printf '%05d' ${test_name}).xml"
+    python cb-replay.py --cbs "${bin_challenge}" \
+      --failure_ok --negotiate "${test_file}" \
+    && echo "PASS: ${test_name}" || echo "FAIL: ${test_name}";;
+
+  n*)
+    test_name=${test_name#"n"}
+    test_file="${dir_build}/pov_${test_name}.pov"
+    python cb-replay-pov.py \
+      "${test_file}" \
+      --cbs "${bin_challenge}" \
+      --negotiate \
+      --pov_seed 0 \
+      --timeout ${timeout} \
+    && echo "PASS: ${test_name}" || echo "FAIL: ${test_name}";;
+
+  *) echo "NOT FOUND: ${test_name}" && exit 1;;
+esac
