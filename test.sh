@@ -1,4 +1,5 @@
 #!/bin/bash
+# https://cgc-docs.legitbs.net/cb-testing/cb-test/
 pushd /challenge/tools
 timeout=15
 name=$1
@@ -12,8 +13,10 @@ case $test_name in
   p*)
     test_name=${test_name#"p"}
     test_file="${dir_xml}/GEN_00000_$(printf '%05d' ${test_name}).xml"
-    python cb-replay.py --cbs "${bin_challenge}" \
-      --failure_ok --negotiate "${test_file}" \
+    # --failure_ok
+    python cb-test.py --cb "${bin_challenge}" \
+      --dir /challenge/build \
+      --negotiate --xml "${test_file}" \
     && echo "PASS: ${test_name}" || echo "FAIL: ${test_name}";;
 
   n*)
