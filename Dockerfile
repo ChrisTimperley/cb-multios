@@ -16,6 +16,7 @@ RUN apt-get update \
       clang-3.8 \
       lldb-3.8 \
       libssl-dev \
+      gdb \
       gcc-multilib \
       g++-multilib \
       libc6-dev \
