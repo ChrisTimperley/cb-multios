@@ -154,17 +154,25 @@ def get_core_dump_regs(path, pid, log):
     Returns:
         (dict): Registers and their values
     """
+    # Find the core file
+    if os.path.exists('/cores/core.{}'.format(pid)):
+        fn_core = '/cores/core.{}'.format(pid)
+    if os.path.exists('core.{}'.format(pid)):
+        fn_core = 'core.{}'.format(pid)
+    if os.path.exists('core'):
+        fn_core = 'core'
+
     # Create a gdb/lldb/cdb command to get regs
     if IS_DARWIN:
         cmd = [
             'lldb',
-            '--core', '/cores/core.{}'.format(pid),
+            '--core', fn_core,
             '--batch', '--one-line', 'register read'
         ]
     elif IS_LINUX:
         cmd = [
             'gdb',
-            '--core', 'core',
+            '--core', fn_core,
             '--batch', '-ex', 'info registers'
         ]
     elif IS_WINDOWS:
