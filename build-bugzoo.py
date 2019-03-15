@@ -41,11 +41,11 @@ def describe_bug(name, num_povs):
 def main():
     yml = {}
     yml['version'] = '1.0'
-    yml['blueprints'] = {
+    yml['blueprints'] = [{
         'type': 'docker',
         'file': 'Dockerfile',
         'tag': NAME_IMAGE,
-        'context': '.'}
+        'context': '.'}]
     yml['bugs'] = [
         describe_bug('Space-Attackers', 1)
     ]
