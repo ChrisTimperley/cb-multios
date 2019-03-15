@@ -41,7 +41,7 @@ def describe_bug(name, num_povs):
 def main():
     yml = {}
     yml['version'] = '1.0'
-    yml['blueprint'] = {
+    yml['blueprints'] = {
         'type': 'docker',
         'file': 'Dockerfile',
         'tag': NAME_IMAGE,
