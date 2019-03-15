@@ -2,6 +2,7 @@ import csv
 
 import yaml
 
+FN_BUG_LIST = 'bugs.csv'
 FN_BUGZOO_FILE = 'cbmultios.bugzoo.yml'
 NAME_IMAGE = 'christimperley/cbmultios'
 NAME_DATASET = 'cbmultios'
@@ -46,9 +47,14 @@ def main():
         'file': 'Dockerfile',
         'tag': NAME_IMAGE,
         'context': '.'}]
-    yml['bugs'] = [
-        describe_bug('Space-Attackers', 1)
-    ]
+    yml['bugs'] = []
+
+    with open(FN_BUG_LIST, 'r') as f:
+        reader = csv.reader(f)
+        next(reader)
+        for (bug, povs) in reader:
+            desc = describe_bug(bug, int(povs))
+            yml['bugs'].append(desc)
 
     with open(FN_BUGZOO_FILE, 'w') as f:
         yaml.dump(yml, f)
