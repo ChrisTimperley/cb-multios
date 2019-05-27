@@ -17,7 +17,8 @@ case $test_name in
     python cb-test.py --cb "${bin_challenge}" \
       --dir /challenge/build \
       --negotiate --xml "${test_file}" \
-    && echo "PASS: ${test_name}" || echo "FAIL: ${test_name}";;
+    && (echo "PASS: ${test_name}" && exit 0) \
+    || (echo "FAIL: ${test_name}" && exit 1);;
 
   n*)
     test_name=${test_name#"n"}
@@ -28,7 +29,8 @@ case $test_name in
       --negotiate \
       --pov_seed 0 \
       --timeout ${timeout} \
-    && echo "PASS: ${test_name}" || echo "FAIL: ${test_name}";;
+    && (echo "PASS: ${test_name}" && exit 0) \
+    || (echo "FAIL: ${test_name}" && exit 1);;
 
   *) echo "NOT FOUND: ${test_name}" && exit 1;;
 esac
