@@ -1,0 +1,5793 @@
+blueprints:
+- context: .
+  file: Dockerfile
+  tag: christimperley/cbmultios
+  type: docker
+bugs:
+- compiler:
+    command: make '3D_Image_Toolkit'
+    command_clean: rm -f '3D_Image_Toolkit'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/3D_Image_Toolkit
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:3D_Image_Toolkit
+  source-location: /challenge/challenges/3D_Image_Toolkit/src
+  test-harness:
+    command: /challenge/test.sh 3D_Image_Toolkit __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'AIS-Lite'
+    command_clean: rm -f 'AIS-Lite'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/AIS-Lite
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:AIS-Lite
+  source-location: /challenge/challenges/AIS-Lite/src
+  test-harness:
+    command: /challenge/test.sh AIS-Lite __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'ASCII_Content_Server'
+    command_clean: rm -f 'ASCII_Content_Server'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/ASCII_Content_Server
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:ASCII_Content_Server
+  source-location: /challenge/challenges/ASCII_Content_Server/src
+  test-harness:
+    command: /challenge/test.sh ASCII_Content_Server __ID__
+    context: /challenge
+    failing: 5
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'ASL6parse'
+    command_clean: rm -f 'ASL6parse'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/ASL6parse
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:ASL6parse
+  source-location: /challenge/challenges/ASL6parse/src
+  test-harness:
+    command: /challenge/test.sh ASL6parse __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'A_Game_of_Chance'
+    command_clean: rm -f 'A_Game_of_Chance'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/A_Game_of_Chance
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:A_Game_of_Chance
+  source-location: /challenge/challenges/A_Game_of_Chance/src
+  test-harness:
+    command: /challenge/test.sh A_Game_of_Chance __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Accel'
+    command_clean: rm -f 'Accel'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Accel
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Accel
+  source-location: /challenge/challenges/Accel/src
+  test-harness:
+    command: /challenge/test.sh Accel __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Audio_Visualizer'
+    command_clean: rm -f 'Audio_Visualizer'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Audio_Visualizer
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Audio_Visualizer
+  source-location: /challenge/challenges/Audio_Visualizer/src
+  test-harness:
+    command: /challenge/test.sh Audio_Visualizer __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Azurad'
+    command_clean: rm -f 'Azurad'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Azurad
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Azurad
+  source-location: /challenge/challenges/Azurad/src
+  test-harness:
+    command: /challenge/test.sh Azurad __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'BIRC'
+    command_clean: rm -f 'BIRC'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/BIRC
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:BIRC
+  source-location: /challenge/challenges/BIRC/src
+  test-harness:
+    command: /challenge/test.sh BIRC __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Barcoder'
+    command_clean: rm -f 'Barcoder'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Barcoder
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Barcoder
+  source-location: /challenge/challenges/Barcoder/src
+  test-harness:
+    command: /challenge/test.sh Barcoder __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'BitBlaster'
+    command_clean: rm -f 'BitBlaster'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/BitBlaster
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:BitBlaster
+  source-location: /challenge/challenges/BitBlaster/src
+  test-harness:
+    command: /challenge/test.sh BitBlaster __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Bloomy_Sunday'
+    command_clean: rm -f 'Bloomy_Sunday'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Bloomy_Sunday
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Bloomy_Sunday
+  source-location: /challenge/challenges/Bloomy_Sunday/src
+  test-harness:
+    command: /challenge/test.sh Bloomy_Sunday __ID__
+    context: /challenge
+    failing: 6
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Blubber'
+    command_clean: rm -f 'Blubber'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Blubber
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Blubber
+  source-location: /challenge/challenges/Blubber/src
+  test-harness:
+    command: /challenge/test.sh Blubber __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Board_Game'
+    command_clean: rm -f 'Board_Game'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Board_Game
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Board_Game
+  source-location: /challenge/challenges/Board_Game/src
+  test-harness:
+    command: /challenge/test.sh Board_Game __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'BudgIT'
+    command_clean: rm -f 'BudgIT'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/BudgIT
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:BudgIT
+  source-location: /challenge/challenges/BudgIT/src
+  test-harness:
+    command: /challenge/test.sh BudgIT __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'CGC_Board'
+    command_clean: rm -f 'CGC_Board'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/CGC_Board
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:CGC_Board
+  source-location: /challenge/challenges/CGC_Board/src
+  test-harness:
+    command: /challenge/test.sh CGC_Board __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'CGC_File_System'
+    command_clean: rm -f 'CGC_File_System'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/CGC_File_System
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:CGC_File_System
+  source-location: /challenge/challenges/CGC_File_System/src
+  test-harness:
+    command: /challenge/test.sh CGC_File_System __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'CGC_Hangman_Game'
+    command_clean: rm -f 'CGC_Hangman_Game'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/CGC_Hangman_Game
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:CGC_Hangman_Game
+  source-location: /challenge/challenges/CGC_Hangman_Game/src
+  test-harness:
+    command: /challenge/test.sh CGC_Hangman_Game __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'CGC_Image_Parser'
+    command_clean: rm -f 'CGC_Image_Parser'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/CGC_Image_Parser
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:CGC_Image_Parser
+  source-location: /challenge/challenges/CGC_Image_Parser/src
+  test-harness:
+    command: /challenge/test.sh CGC_Image_Parser __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'CGC_Planet_Markup_Language_Parser'
+    command_clean: rm -f 'CGC_Planet_Markup_Language_Parser'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/CGC_Planet_Markup_Language_Parser
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:CGC_Planet_Markup_Language_Parser
+  source-location: /challenge/challenges/CGC_Planet_Markup_Language_Parser/src
+  test-harness:
+    command: /challenge/test.sh CGC_Planet_Markup_Language_Parser __ID__
+    context: /challenge
+    failing: 7
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'CGC_Symbol_Viewer_CSV'
+    command_clean: rm -f 'CGC_Symbol_Viewer_CSV'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/CGC_Symbol_Viewer_CSV
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:CGC_Symbol_Viewer_CSV
+  source-location: /challenge/challenges/CGC_Symbol_Viewer_CSV/src
+  test-harness:
+    command: /challenge/test.sh CGC_Symbol_Viewer_CSV __ID__
+    context: /challenge
+    failing: 4
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'CGC_Video_Format_Parser_and_Viewer'
+    command_clean: rm -f 'CGC_Video_Format_Parser_and_Viewer'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/CGC_Video_Format_Parser_and_Viewer
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:CGC_Video_Format_Parser_and_Viewer
+  source-location: /challenge/challenges/CGC_Video_Format_Parser_and_Viewer/src
+  test-harness:
+    command: /challenge/test.sh CGC_Video_Format_Parser_and_Viewer __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'CLOUDCOMPUTE'
+    command_clean: rm -f 'CLOUDCOMPUTE'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/CLOUDCOMPUTE
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:CLOUDCOMPUTE
+  source-location: /challenge/challenges/CLOUDCOMPUTE/src
+  test-harness:
+    command: /challenge/test.sh CLOUDCOMPUTE __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'CML'
+    command_clean: rm -f 'CML'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/CML
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:CML
+  source-location: /challenge/challenges/CML/src
+  test-harness:
+    command: /challenge/test.sh CML __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'CNMP'
+    command_clean: rm -f 'CNMP'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/CNMP
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:CNMP
+  source-location: /challenge/challenges/CNMP/src
+  test-harness:
+    command: /challenge/test.sh CNMP __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'COLLIDEOSCOPE'
+    command_clean: rm -f 'COLLIDEOSCOPE'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/COLLIDEOSCOPE
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:COLLIDEOSCOPE
+  source-location: /challenge/challenges/COLLIDEOSCOPE/src
+  test-harness:
+    command: /challenge/test.sh COLLIDEOSCOPE __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'CTTP'
+    command_clean: rm -f 'CTTP'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/CTTP
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:CTTP
+  source-location: /challenge/challenges/CTTP/src
+  test-harness:
+    command: /challenge/test.sh CTTP __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'CableGrind'
+    command_clean: rm -f 'CableGrind'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/CableGrind
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:CableGrind
+  source-location: /challenge/challenges/CableGrind/src
+  test-harness:
+    command: /challenge/test.sh CableGrind __ID__
+    context: /challenge
+    failing: 181
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'CableGrindLlama'
+    command_clean: rm -f 'CableGrindLlama'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/CableGrindLlama
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:CableGrindLlama
+  source-location: /challenge/challenges/CableGrindLlama/src
+  test-harness:
+    command: /challenge/test.sh CableGrindLlama __ID__
+    context: /challenge
+    failing: 118
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Carbonate'
+    command_clean: rm -f 'Carbonate'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Carbonate
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Carbonate
+  source-location: /challenge/challenges/Carbonate/src
+  test-harness:
+    command: /challenge/test.sh Carbonate __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Casino_Games'
+    command_clean: rm -f 'Casino_Games'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Casino_Games
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Casino_Games
+  source-location: /challenge/challenges/Casino_Games/src
+  test-harness:
+    command: /challenge/test.sh Casino_Games __ID__
+    context: /challenge
+    failing: 4
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Cereal_Mixup__A_Cereal_Vending_Machine_Controller'
+    command_clean: rm -f 'Cereal_Mixup__A_Cereal_Vending_Machine_Controller'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Cereal_Mixup__A_Cereal_Vending_Machine_Controller
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Cereal_Mixup__A_Cereal_Vending_Machine_Controller
+  source-location: /challenge/challenges/Cereal_Mixup__A_Cereal_Vending_Machine_Controller/src
+  test-harness:
+    command: /challenge/test.sh Cereal_Mixup__A_Cereal_Vending_Machine_Controller
+      __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Character_Statistics'
+    command_clean: rm -f 'Character_Statistics'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Character_Statistics
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Character_Statistics
+  source-location: /challenge/challenges/Character_Statistics/src
+  test-harness:
+    command: /challenge/test.sh Character_Statistics __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Charter'
+    command_clean: rm -f 'Charter'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Charter
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Charter
+  source-location: /challenge/challenges/Charter/src
+  test-harness:
+    command: /challenge/test.sh Charter __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Checkmate'
+    command_clean: rm -f 'Checkmate'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Checkmate
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Checkmate
+  source-location: /challenge/challenges/Checkmate/src
+  test-harness:
+    command: /challenge/test.sh Checkmate __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Childs_Game'
+    command_clean: rm -f 'Childs_Game'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Childs_Game
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Childs_Game
+  source-location: /challenge/challenges/Childs_Game/src
+  test-harness:
+    command: /challenge/test.sh Childs_Game __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Corinth'
+    command_clean: rm -f 'Corinth'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Corinth
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Corinth
+  source-location: /challenge/challenges/Corinth/src
+  test-harness:
+    command: /challenge/test.sh Corinth __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Cromulence_All_Service'
+    command_clean: rm -f 'Cromulence_All_Service'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Cromulence_All_Service
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Cromulence_All_Service
+  source-location: /challenge/challenges/Cromulence_All_Service/src
+  test-harness:
+    command: /challenge/test.sh Cromulence_All_Service __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'DFARS_Sample_Service'
+    command_clean: rm -f 'DFARS_Sample_Service'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/DFARS_Sample_Service
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:DFARS_Sample_Service
+  source-location: /challenge/challenges/DFARS_Sample_Service/src
+  test-harness:
+    command: /challenge/test.sh DFARS_Sample_Service __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Diary_Parser'
+    command_clean: rm -f 'Diary_Parser'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Diary_Parser
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Diary_Parser
+  source-location: /challenge/challenges/Diary_Parser/src
+  test-harness:
+    command: /challenge/test.sh Diary_Parser __ID__
+    context: /challenge
+    failing: 4
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Differ'
+    command_clean: rm -f 'Differ'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Differ
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Differ
+  source-location: /challenge/challenges/Differ/src
+  test-harness:
+    command: /challenge/test.sh Differ __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Diophantine_Password_Wallet'
+    command_clean: rm -f 'Diophantine_Password_Wallet'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Diophantine_Password_Wallet
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Diophantine_Password_Wallet
+  source-location: /challenge/challenges/Diophantine_Password_Wallet/src
+  test-harness:
+    command: /challenge/test.sh Diophantine_Password_Wallet __ID__
+    context: /challenge
+    failing: 5
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Dive_Logger'
+    command_clean: rm -f 'Dive_Logger'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Dive_Logger
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Dive_Logger
+  source-location: /challenge/challenges/Dive_Logger/src
+  test-harness:
+    command: /challenge/test.sh Dive_Logger __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Divelogger2'
+    command_clean: rm -f 'Divelogger2'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Divelogger2
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Divelogger2
+  source-location: /challenge/challenges/Divelogger2/src
+  test-harness:
+    command: /challenge/test.sh Divelogger2 __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Document_Rendering_Engine'
+    command_clean: rm -f 'Document_Rendering_Engine'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Document_Rendering_Engine
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Document_Rendering_Engine
+  source-location: /challenge/challenges/Document_Rendering_Engine/src
+  test-harness:
+    command: /challenge/test.sh Document_Rendering_Engine __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Dungeon_Master'
+    command_clean: rm -f 'Dungeon_Master'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Dungeon_Master
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Dungeon_Master
+  source-location: /challenge/challenges/Dungeon_Master/src
+  test-harness:
+    command: /challenge/test.sh Dungeon_Master __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'ECM_TCM_Simulator'
+    command_clean: rm -f 'ECM_TCM_Simulator'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/ECM_TCM_Simulator
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:ECM_TCM_Simulator
+  source-location: /challenge/challenges/ECM_TCM_Simulator/src
+  test-harness:
+    command: /challenge/test.sh ECM_TCM_Simulator __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Eddy'
+    command_clean: rm -f 'Eddy'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Eddy
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Eddy
+  source-location: /challenge/challenges/Eddy/src
+  test-harness:
+    command: /challenge/test.sh Eddy __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Email_System_2'
+    command_clean: rm -f 'Email_System_2'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Email_System_2
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Email_System_2
+  source-location: /challenge/challenges/Email_System_2/src
+  test-harness:
+    command: /challenge/test.sh Email_System_2 __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Enslavednode_chat'
+    command_clean: rm -f 'Enslavednode_chat'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Enslavednode_chat
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Enslavednode_chat
+  source-location: /challenge/challenges/Enslavednode_chat/src
+  test-harness:
+    command: /challenge/test.sh Enslavednode_chat __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Estadio'
+    command_clean: rm -f 'Estadio'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Estadio
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Estadio
+  source-location: /challenge/challenges/Estadio/src
+  test-harness:
+    command: /challenge/test.sh Estadio __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'EternalPass'
+    command_clean: rm -f 'EternalPass'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/EternalPass
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:EternalPass
+  source-location: /challenge/challenges/EternalPass/src
+  test-harness:
+    command: /challenge/test.sh EternalPass __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'FASTLANE'
+    command_clean: rm -f 'FASTLANE'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/FASTLANE
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:FASTLANE
+  source-location: /challenge/challenges/FASTLANE/src
+  test-harness:
+    command: /challenge/test.sh FASTLANE __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'FISHYXML'
+    command_clean: rm -f 'FISHYXML'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/FISHYXML
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:FISHYXML
+  source-location: /challenge/challenges/FISHYXML/src
+  test-harness:
+    command: /challenge/test.sh FISHYXML __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'FSK_BBS'
+    command_clean: rm -f 'FSK_BBS'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/FSK_BBS
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:FSK_BBS
+  source-location: /challenge/challenges/FSK_BBS/src
+  test-harness:
+    command: /challenge/test.sh FSK_BBS __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'FSK_Messaging_Service'
+    command_clean: rm -f 'FSK_Messaging_Service'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/FSK_Messaging_Service
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:FSK_Messaging_Service
+  source-location: /challenge/challenges/FSK_Messaging_Service/src
+  test-harness:
+    command: /challenge/test.sh FSK_Messaging_Service __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'FUN'
+    command_clean: rm -f 'FUN'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/FUN
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:FUN
+  source-location: /challenge/challenges/FUN/src
+  test-harness:
+    command: /challenge/test.sh FUN __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'FablesReport'
+    command_clean: rm -f 'FablesReport'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/FablesReport
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:FablesReport
+  source-location: /challenge/challenges/FablesReport/src
+  test-harness:
+    command: /challenge/test.sh FablesReport __ID__
+    context: /challenge
+    failing: 5
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'FaceMag'
+    command_clean: rm -f 'FaceMag'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/FaceMag
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:FaceMag
+  source-location: /challenge/challenges/FaceMag/src
+  test-harness:
+    command: /challenge/test.sh FaceMag __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Facilities_Access_Control_System'
+    command_clean: rm -f 'Facilities_Access_Control_System'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Facilities_Access_Control_System
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Facilities_Access_Control_System
+  source-location: /challenge/challenges/Facilities_Access_Control_System/src
+  test-harness:
+    command: /challenge/test.sh Facilities_Access_Control_System __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'FailAV'
+    command_clean: rm -f 'FailAV'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/FailAV
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:FailAV
+  source-location: /challenge/challenges/FailAV/src
+  test-harness:
+    command: /challenge/test.sh FailAV __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'FileSys'
+    command_clean: rm -f 'FileSys'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/FileSys
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:FileSys
+  source-location: /challenge/challenges/FileSys/src
+  test-harness:
+    command: /challenge/test.sh FileSys __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Filesystem_Command_Shell'
+    command_clean: rm -f 'Filesystem_Command_Shell'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Filesystem_Command_Shell
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Filesystem_Command_Shell
+  source-location: /challenge/challenges/Filesystem_Command_Shell/src
+  test-harness:
+    command: /challenge/test.sh Filesystem_Command_Shell __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Finicky_File_Folder'
+    command_clean: rm -f 'Finicky_File_Folder'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Finicky_File_Folder
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Finicky_File_Folder
+  source-location: /challenge/challenges/Finicky_File_Folder/src
+  test-harness:
+    command: /challenge/test.sh Finicky_File_Folder __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Flash_File_System'
+    command_clean: rm -f 'Flash_File_System'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Flash_File_System
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Flash_File_System
+  source-location: /challenge/challenges/Flash_File_System/src
+  test-harness:
+    command: /challenge/test.sh Flash_File_System __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Flight_Routes'
+    command_clean: rm -f 'Flight_Routes'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Flight_Routes
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Flight_Routes
+  source-location: /challenge/challenges/Flight_Routes/src
+  test-harness:
+    command: /challenge/test.sh Flight_Routes __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Fortress'
+    command_clean: rm -f 'Fortress'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Fortress
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Fortress
+  source-location: /challenge/challenges/Fortress/src
+  test-harness:
+    command: /challenge/test.sh Fortress __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'GPS_Tracker'
+    command_clean: rm -f 'GPS_Tracker'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/GPS_Tracker
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:GPS_Tracker
+  source-location: /challenge/challenges/GPS_Tracker/src
+  test-harness:
+    command: /challenge/test.sh GPS_Tracker __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'GREYMATTER'
+    command_clean: rm -f 'GREYMATTER'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/GREYMATTER
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:GREYMATTER
+  source-location: /challenge/challenges/GREYMATTER/src
+  test-harness:
+    command: /challenge/test.sh GREYMATTER __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Game_Night'
+    command_clean: rm -f 'Game_Night'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Game_Night
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Game_Night
+  source-location: /challenge/challenges/Game_Night/src
+  test-harness:
+    command: /challenge/test.sh Game_Night __ID__
+    context: /challenge
+    failing: 4
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Glue'
+    command_clean: rm -f 'Glue'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Glue
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Glue
+  source-location: /challenge/challenges/Glue/src
+  test-harness:
+    command: /challenge/test.sh Glue __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'GreatView'
+    command_clean: rm -f 'GreatView'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/GreatView
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:GreatView
+  source-location: /challenge/challenges/GreatView/src
+  test-harness:
+    command: /challenge/test.sh GreatView __ID__
+    context: /challenge
+    failing: 4
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Gridder'
+    command_clean: rm -f 'Gridder'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Gridder
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Gridder
+  source-location: /challenge/challenges/Gridder/src
+  test-harness:
+    command: /challenge/test.sh Gridder __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Griswold'
+    command_clean: rm -f 'Griswold'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Griswold
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Griswold
+  source-location: /challenge/challenges/Griswold/src
+  test-harness:
+    command: /challenge/test.sh Griswold __ID__
+    context: /challenge
+    failing: 4
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Grit'
+    command_clean: rm -f 'Grit'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Grit
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Grit
+  source-location: /challenge/challenges/Grit/src
+  test-harness:
+    command: /challenge/test.sh Grit __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'H20FlowInc'
+    command_clean: rm -f 'H20FlowInc'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/H20FlowInc
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:H20FlowInc
+  source-location: /challenge/challenges/H20FlowInc/src
+  test-harness:
+    command: /challenge/test.sh H20FlowInc __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'HIGHCOO'
+    command_clean: rm -f 'HIGHCOO'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/HIGHCOO
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:HIGHCOO
+  source-location: /challenge/challenges/HIGHCOO/src
+  test-harness:
+    command: /challenge/test.sh HIGHCOO __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'HackMan'
+    command_clean: rm -f 'HackMan'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/HackMan
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:HackMan
+  source-location: /challenge/challenges/HackMan/src
+  test-harness:
+    command: /challenge/test.sh HackMan __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Headscratch'
+    command_clean: rm -f 'Headscratch'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Headscratch
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Headscratch
+  source-location: /challenge/challenges/Headscratch/src
+  test-harness:
+    command: /challenge/test.sh Headscratch __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'HeartThrob'
+    command_clean: rm -f 'HeartThrob'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/HeartThrob
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:HeartThrob
+  source-location: /challenge/challenges/HeartThrob/src
+  test-harness:
+    command: /challenge/test.sh HeartThrob __ID__
+    context: /challenge
+    failing: 4
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'HighFrequencyTradingAlgo'
+    command_clean: rm -f 'HighFrequencyTradingAlgo'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/HighFrequencyTradingAlgo
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:HighFrequencyTradingAlgo
+  source-location: /challenge/challenges/HighFrequencyTradingAlgo/src
+  test-harness:
+    command: /challenge/test.sh HighFrequencyTradingAlgo __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Hug_Game'
+    command_clean: rm -f 'Hug_Game'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Hug_Game
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Hug_Game
+  source-location: /challenge/challenges/Hug_Game/src
+  test-harness:
+    command: /challenge/test.sh Hug_Game __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'INSULATR'
+    command_clean: rm -f 'INSULATR'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/INSULATR
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:INSULATR
+  source-location: /challenge/challenges/INSULATR/src
+  test-harness:
+    command: /challenge/test.sh INSULATR __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Image_Compressor'
+    command_clean: rm -f 'Image_Compressor'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Image_Compressor
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Image_Compressor
+  source-location: /challenge/challenges/Image_Compressor/src
+  test-harness:
+    command: /challenge/test.sh Image_Compressor __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'KKVS'
+    command_clean: rm -f 'KKVS'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/KKVS
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:KKVS
+  source-location: /challenge/challenges/KKVS/src
+  test-harness:
+    command: /challenge/test.sh KKVS __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'KTY_Pretty_Printer'
+    command_clean: rm -f 'KTY_Pretty_Printer'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/KTY_Pretty_Printer
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:KTY_Pretty_Printer
+  source-location: /challenge/challenges/KTY_Pretty_Printer/src
+  test-harness:
+    command: /challenge/test.sh KTY_Pretty_Printer __ID__
+    context: /challenge
+    failing: 5
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Kaprica_Go'
+    command_clean: rm -f 'Kaprica_Go'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Kaprica_Go
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Kaprica_Go
+  source-location: /challenge/challenges/Kaprica_Go/src
+  test-harness:
+    command: /challenge/test.sh Kaprica_Go __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Kaprica_Script_Interpreter'
+    command_clean: rm -f 'Kaprica_Script_Interpreter'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Kaprica_Script_Interpreter
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Kaprica_Script_Interpreter
+  source-location: /challenge/challenges/Kaprica_Script_Interpreter/src
+  test-harness:
+    command: /challenge/test.sh Kaprica_Script_Interpreter __ID__
+    context: /challenge
+    failing: 9
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'LAN_Simulator'
+    command_clean: rm -f 'LAN_Simulator'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/LAN_Simulator
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:LAN_Simulator
+  source-location: /challenge/challenges/LAN_Simulator/src
+  test-harness:
+    command: /challenge/test.sh LAN_Simulator __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'LMS'
+    command_clean: rm -f 'LMS'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/LMS
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:LMS
+  source-location: /challenge/challenges/LMS/src
+  test-harness:
+    command: /challenge/test.sh LMS __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'LazyCalc'
+    command_clean: rm -f 'LazyCalc'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/LazyCalc
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:LazyCalc
+  source-location: /challenge/challenges/LazyCalc/src
+  test-harness:
+    command: /challenge/test.sh LazyCalc __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Lazybox'
+    command_clean: rm -f 'Lazybox'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Lazybox
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Lazybox
+  source-location: /challenge/challenges/Lazybox/src
+  test-harness:
+    command: /challenge/test.sh Lazybox __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Loud_Square_Instant_Messaging_Protocol_LSIMP'
+    command_clean: rm -f 'Loud_Square_Instant_Messaging_Protocol_LSIMP'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Loud_Square_Instant_Messaging_Protocol_LSIMP
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Loud_Square_Instant_Messaging_Protocol_LSIMP
+  source-location: /challenge/challenges/Loud_Square_Instant_Messaging_Protocol_LSIMP/src
+  test-harness:
+    command: /challenge/test.sh Loud_Square_Instant_Messaging_Protocol_LSIMP __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'LulzChat'
+    command_clean: rm -f 'LulzChat'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/LulzChat
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:LulzChat
+  source-location: /challenge/challenges/LulzChat/src
+  test-harness:
+    command: /challenge/test.sh LulzChat __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Matchmaker'
+    command_clean: rm -f 'Matchmaker'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Matchmaker
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Matchmaker
+  source-location: /challenge/challenges/Matchmaker/src
+  test-harness:
+    command: /challenge/test.sh Matchmaker __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Material_Temperature_Simulation'
+    command_clean: rm -f 'Material_Temperature_Simulation'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Material_Temperature_Simulation
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Material_Temperature_Simulation
+  source-location: /challenge/challenges/Material_Temperature_Simulation/src
+  test-harness:
+    command: /challenge/test.sh Material_Temperature_Simulation __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Mathematical_Solver'
+    command_clean: rm -f 'Mathematical_Solver'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Mathematical_Solver
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Mathematical_Solver
+  source-location: /challenge/challenges/Mathematical_Solver/src
+  test-harness:
+    command: /challenge/test.sh Mathematical_Solver __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Matrix_Math_Calculator'
+    command_clean: rm -f 'Matrix_Math_Calculator'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Matrix_Math_Calculator
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Matrix_Math_Calculator
+  source-location: /challenge/challenges/Matrix_Math_Calculator/src
+  test-harness:
+    command: /challenge/test.sh Matrix_Math_Calculator __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Message_Service'
+    command_clean: rm -f 'Message_Service'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Message_Service
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Message_Service
+  source-location: /challenge/challenges/Message_Service/src
+  test-harness:
+    command: /challenge/test.sh Message_Service __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Messaging'
+    command_clean: rm -f 'Messaging'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Messaging
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Messaging
+  source-location: /challenge/challenges/Messaging/src
+  test-harness:
+    command: /challenge/test.sh Messaging __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Minimalistic_Memo_Manager_3M'
+    command_clean: rm -f 'Minimalistic_Memo_Manager_3M'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Minimalistic_Memo_Manager_3M
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Minimalistic_Memo_Manager_3M
+  source-location: /challenge/challenges/Minimalistic_Memo_Manager_3M/src
+  test-harness:
+    command: /challenge/test.sh Minimalistic_Memo_Manager_3M __ID__
+    context: /challenge
+    failing: 5
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Mixology'
+    command_clean: rm -f 'Mixology'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Mixology
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Mixology
+  source-location: /challenge/challenges/Mixology/src
+  test-harness:
+    command: /challenge/test.sh Mixology __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Modern_Family_Tree'
+    command_clean: rm -f 'Modern_Family_Tree'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Modern_Family_Tree
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Modern_Family_Tree
+  source-location: /challenge/challenges/Modern_Family_Tree/src
+  test-harness:
+    command: /challenge/test.sh Modern_Family_Tree __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Monster_Game'
+    command_clean: rm -f 'Monster_Game'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Monster_Game
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Monster_Game
+  source-location: /challenge/challenges/Monster_Game/src
+  test-harness:
+    command: /challenge/test.sh Monster_Game __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Mount_Filemore'
+    command_clean: rm -f 'Mount_Filemore'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Mount_Filemore
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Mount_Filemore
+  source-location: /challenge/challenges/Mount_Filemore/src
+  test-harness:
+    command: /challenge/test.sh Mount_Filemore __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Movie_Rental_Service'
+    command_clean: rm -f 'Movie_Rental_Service'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Movie_Rental_Service
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Movie_Rental_Service
+  source-location: /challenge/challenges/Movie_Rental_Service/src
+  test-harness:
+    command: /challenge/test.sh Movie_Rental_Service __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Movie_Rental_Service_Redux'
+    command_clean: rm -f 'Movie_Rental_Service_Redux'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Movie_Rental_Service_Redux
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Movie_Rental_Service_Redux
+  source-location: /challenge/challenges/Movie_Rental_Service_Redux/src
+  test-harness:
+    command: /challenge/test.sh Movie_Rental_Service_Redux __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Multi_Arena_Pursuit_Simulator'
+    command_clean: rm -f 'Multi_Arena_Pursuit_Simulator'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Multi_Arena_Pursuit_Simulator
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Multi_Arena_Pursuit_Simulator
+  source-location: /challenge/challenges/Multi_Arena_Pursuit_Simulator/src
+  test-harness:
+    command: /challenge/test.sh Multi_Arena_Pursuit_Simulator __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Multi_User_Calendar'
+    command_clean: rm -f 'Multi_User_Calendar'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Multi_User_Calendar
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Multi_User_Calendar
+  source-location: /challenge/challenges/Multi_User_Calendar/src
+  test-harness:
+    command: /challenge/test.sh Multi_User_Calendar __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Multicast_Chat_Server'
+    command_clean: rm -f 'Multicast_Chat_Server'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Multicast_Chat_Server
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Multicast_Chat_Server
+  source-location: /challenge/challenges/Multicast_Chat_Server/src
+  test-harness:
+    command: /challenge/test.sh Multicast_Chat_Server __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Multipass'
+    command_clean: rm -f 'Multipass'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Multipass
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Multipass
+  source-location: /challenge/challenges/Multipass/src
+  test-harness:
+    command: /challenge/test.sh Multipass __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Multipass2'
+    command_clean: rm -f 'Multipass2'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Multipass2
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Multipass2
+  source-location: /challenge/challenges/Multipass2/src
+  test-harness:
+    command: /challenge/test.sh Multipass2 __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Multipass3'
+    command_clean: rm -f 'Multipass3'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Multipass3
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Multipass3
+  source-location: /challenge/challenges/Multipass3/src
+  test-harness:
+    command: /challenge/test.sh Multipass3 __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Music_Store_Client'
+    command_clean: rm -f 'Music_Store_Client'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Music_Store_Client
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Music_Store_Client
+  source-location: /challenge/challenges/Music_Store_Client/src
+  test-harness:
+    command: /challenge/test.sh Music_Store_Client __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'NarfAgainShell'
+    command_clean: rm -f 'NarfAgainShell'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/NarfAgainShell
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:NarfAgainShell
+  source-location: /challenge/challenges/NarfAgainShell/src
+  test-harness:
+    command: /challenge/test.sh NarfAgainShell __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'NarfRPN'
+    command_clean: rm -f 'NarfRPN'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/NarfRPN
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:NarfRPN
+  source-location: /challenge/challenges/NarfRPN/src
+  test-harness:
+    command: /challenge/test.sh NarfRPN __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Network_File_System'
+    command_clean: rm -f 'Network_File_System'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Network_File_System
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Network_File_System
+  source-location: /challenge/challenges/Network_File_System/src
+  test-harness:
+    command: /challenge/test.sh Network_File_System __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Network_File_System_v3'
+    command_clean: rm -f 'Network_File_System_v3'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Network_File_System_v3
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Network_File_System_v3
+  source-location: /challenge/challenges/Network_File_System_v3/src
+  test-harness:
+    command: /challenge/test.sh Network_File_System_v3 __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Network_Queuing_Simulator'
+    command_clean: rm -f 'Network_Queuing_Simulator'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Network_Queuing_Simulator
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Network_Queuing_Simulator
+  source-location: /challenge/challenges/Network_Queuing_Simulator/src
+  test-harness:
+    command: /challenge/test.sh Network_Queuing_Simulator __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Neural_House'
+    command_clean: rm -f 'Neural_House'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Neural_House
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Neural_House
+  source-location: /challenge/challenges/Neural_House/src
+  test-harness:
+    command: /challenge/test.sh Neural_House __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'NoHiC'
+    command_clean: rm -f 'NoHiC'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/NoHiC
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:NoHiC
+  source-location: /challenge/challenges/NoHiC/src
+  test-harness:
+    command: /challenge/test.sh NoHiC __ID__
+    context: /challenge
+    failing: 4
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'No_Paper._Not_Ever._NOPE'
+    command_clean: rm -f 'No_Paper._Not_Ever._NOPE'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/No_Paper._Not_Ever._NOPE
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:No_Paper._Not_Ever._NOPE
+  source-location: /challenge/challenges/No_Paper._Not_Ever._NOPE/src
+  test-harness:
+    command: /challenge/test.sh No_Paper._Not_Ever._NOPE __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'OTPSim'
+    command_clean: rm -f 'OTPSim'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/OTPSim
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:OTPSim
+  source-location: /challenge/challenges/OTPSim/src
+  test-harness:
+    command: /challenge/test.sh OTPSim __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'OUTLAW'
+    command_clean: rm -f 'OUTLAW'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/OUTLAW
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:OUTLAW
+  source-location: /challenge/challenges/OUTLAW/src
+  test-harness:
+    command: /challenge/test.sh OUTLAW __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'On_Sale'
+    command_clean: rm -f 'On_Sale'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/On_Sale
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:On_Sale
+  source-location: /challenge/challenges/On_Sale/src
+  test-harness:
+    command: /challenge/test.sh On_Sale __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'One_Amp'
+    command_clean: rm -f 'One_Amp'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/One_Amp
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:One_Amp
+  source-location: /challenge/challenges/One_Amp/src
+  test-harness:
+    command: /challenge/test.sh One_Amp __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'One_Vote'
+    command_clean: rm -f 'One_Vote'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/One_Vote
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:One_Vote
+  source-location: /challenge/challenges/One_Vote/src
+  test-harness:
+    command: /challenge/test.sh One_Vote __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Order_Up'
+    command_clean: rm -f 'Order_Up'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Order_Up
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Order_Up
+  source-location: /challenge/challenges/Order_Up/src
+  test-harness:
+    command: /challenge/test.sh Order_Up __ID__
+    context: /challenge
+    failing: 9
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Overflow_Parking'
+    command_clean: rm -f 'Overflow_Parking'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Overflow_Parking
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Overflow_Parking
+  source-location: /challenge/challenges/Overflow_Parking/src
+  test-harness:
+    command: /challenge/test.sh Overflow_Parking __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'PCM_Message_decoder'
+    command_clean: rm -f 'PCM_Message_decoder'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/PCM_Message_decoder
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:PCM_Message_decoder
+  source-location: /challenge/challenges/PCM_Message_decoder/src
+  test-harness:
+    command: /challenge/test.sh PCM_Message_decoder __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'PKK_Steganography'
+    command_clean: rm -f 'PKK_Steganography'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/PKK_Steganography
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:PKK_Steganography
+  source-location: /challenge/challenges/PKK_Steganography/src
+  test-harness:
+    command: /challenge/test.sh PKK_Steganography __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'PRU'
+    command_clean: rm -f 'PRU'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/PRU
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:PRU
+  source-location: /challenge/challenges/PRU/src
+  test-harness:
+    command: /challenge/test.sh PRU __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'PTaaS'
+    command_clean: rm -f 'PTaaS'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/PTaaS
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:PTaaS
+  source-location: /challenge/challenges/PTaaS/src
+  test-harness:
+    command: /challenge/test.sh PTaaS __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Pac_for_Edges'
+    command_clean: rm -f 'Pac_for_Edges'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Pac_for_Edges
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Pac_for_Edges
+  source-location: /challenge/challenges/Pac_for_Edges/src
+  test-harness:
+    command: /challenge/test.sh Pac_for_Edges __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Packet_Analyzer'
+    command_clean: rm -f 'Packet_Analyzer'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Packet_Analyzer
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Packet_Analyzer
+  source-location: /challenge/challenges/Packet_Analyzer/src
+  test-harness:
+    command: /challenge/test.sh Packet_Analyzer __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Packet_Receiver'
+    command_clean: rm -f 'Packet_Receiver'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Packet_Receiver
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Packet_Receiver
+  source-location: /challenge/challenges/Packet_Receiver/src
+  test-harness:
+    command: /challenge/test.sh Packet_Receiver __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Palindrome'
+    command_clean: rm -f 'Palindrome'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Palindrome
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Palindrome
+  source-location: /challenge/challenges/Palindrome/src
+  test-harness:
+    command: /challenge/test.sh Palindrome __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Palindrome2'
+    command_clean: rm -f 'Palindrome2'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Palindrome2
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Palindrome2
+  source-location: /challenge/challenges/Palindrome2/src
+  test-harness:
+    command: /challenge/test.sh Palindrome2 __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Parking_Permit_Management_System_PPMS'
+    command_clean: rm -f 'Parking_Permit_Management_System_PPMS'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Parking_Permit_Management_System_PPMS
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Parking_Permit_Management_System_PPMS
+  source-location: /challenge/challenges/Parking_Permit_Management_System_PPMS/src
+  test-harness:
+    command: /challenge/test.sh Parking_Permit_Management_System_PPMS __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Particle_Simulator'
+    command_clean: rm -f 'Particle_Simulator'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Particle_Simulator
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Particle_Simulator
+  source-location: /challenge/challenges/Particle_Simulator/src
+  test-harness:
+    command: /challenge/test.sh Particle_Simulator __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Pattern_Finder'
+    command_clean: rm -f 'Pattern_Finder'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Pattern_Finder
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Pattern_Finder
+  source-location: /challenge/challenges/Pattern_Finder/src
+  test-harness:
+    command: /challenge/test.sh Pattern_Finder __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Personal_Fitness_Manager'
+    command_clean: rm -f 'Personal_Fitness_Manager'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Personal_Fitness_Manager
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Personal_Fitness_Manager
+  source-location: /challenge/challenges/Personal_Fitness_Manager/src
+  test-harness:
+    command: /challenge/test.sh Personal_Fitness_Manager __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Pipelined'
+    command_clean: rm -f 'Pipelined'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Pipelined
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Pipelined
+  source-location: /challenge/challenges/Pipelined/src
+  test-harness:
+    command: /challenge/test.sh Pipelined __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Printer'
+    command_clean: rm -f 'Printer'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Printer
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Printer
+  source-location: /challenge/challenges/Printer/src
+  test-harness:
+    command: /challenge/test.sh Printer __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'QUIETSQUARE'
+    command_clean: rm -f 'QUIETSQUARE'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/QUIETSQUARE
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:QUIETSQUARE
+  source-location: /challenge/challenges/QUIETSQUARE/src
+  test-harness:
+    command: /challenge/test.sh QUIETSQUARE __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'QuadtreeConways'
+    command_clean: rm -f 'QuadtreeConways'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/QuadtreeConways
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:QuadtreeConways
+  source-location: /challenge/challenges/QuadtreeConways/src
+  test-harness:
+    command: /challenge/test.sh QuadtreeConways __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Query_Calculator'
+    command_clean: rm -f 'Query_Calculator'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Query_Calculator
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Query_Calculator
+  source-location: /challenge/challenges/Query_Calculator/src
+  test-harness:
+    command: /challenge/test.sh Query_Calculator __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'RAM_based_filesystem'
+    command_clean: rm -f 'RAM_based_filesystem'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/RAM_based_filesystem
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:RAM_based_filesystem
+  source-location: /challenge/challenges/RAM_based_filesystem/src
+  test-harness:
+    command: /challenge/test.sh RAM_based_filesystem __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'REDPILL'
+    command_clean: rm -f 'REDPILL'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/REDPILL
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:REDPILL
+  source-location: /challenge/challenges/REDPILL/src
+  test-harness:
+    command: /challenge/test.sh REDPILL __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'REMATCH_1--Hat_Trick--Morris_Worm'
+    command_clean: rm -f 'REMATCH_1--Hat_Trick--Morris_Worm'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/REMATCH_1--Hat_Trick--Morris_Worm
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:REMATCH_1--Hat_Trick--Morris_Worm
+  source-location: /challenge/challenges/REMATCH_1--Hat_Trick--Morris_Worm/src
+  test-harness:
+    command: /challenge/test.sh REMATCH_1--Hat_Trick--Morris_Worm __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'REMATCH_2--Mail_Server--Crackaddr'
+    command_clean: rm -f 'REMATCH_2--Mail_Server--Crackaddr'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/REMATCH_2--Mail_Server--Crackaddr
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:REMATCH_2--Mail_Server--Crackaddr
+  source-location: /challenge/challenges/REMATCH_2--Mail_Server--Crackaddr/src
+  test-harness:
+    command: /challenge/test.sh REMATCH_2--Mail_Server--Crackaddr __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'REMATCH_3--Address_Resolution_Service--SQL_Slammer'
+    command_clean: rm -f 'REMATCH_3--Address_Resolution_Service--SQL_Slammer'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/REMATCH_3--Address_Resolution_Service--SQL_Slammer
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:REMATCH_3--Address_Resolution_Service--SQL_Slammer
+  source-location: /challenge/challenges/REMATCH_3--Address_Resolution_Service--SQL_Slammer/src
+  test-harness:
+    command: /challenge/test.sh REMATCH_3--Address_Resolution_Service--SQL_Slammer
+      __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'REMATCH_4--CGCRPC_Server--MS08-067'
+    command_clean: rm -f 'REMATCH_4--CGCRPC_Server--MS08-067'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/REMATCH_4--CGCRPC_Server--MS08-067
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:REMATCH_4--CGCRPC_Server--MS08-067
+  source-location: /challenge/challenges/REMATCH_4--CGCRPC_Server--MS08-067/src
+  test-harness:
+    command: /challenge/test.sh REMATCH_4--CGCRPC_Server--MS08-067 __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'REMATCH_5--File_Explorer--LNK_Bug'
+    command_clean: rm -f 'REMATCH_5--File_Explorer--LNK_Bug'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/REMATCH_5--File_Explorer--LNK_Bug
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:REMATCH_5--File_Explorer--LNK_Bug
+  source-location: /challenge/challenges/REMATCH_5--File_Explorer--LNK_Bug/src
+  test-harness:
+    command: /challenge/test.sh REMATCH_5--File_Explorer--LNK_Bug __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'REMATCH_6--Secure_Server--Heartbleed'
+    command_clean: rm -f 'REMATCH_6--Secure_Server--Heartbleed'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/REMATCH_6--Secure_Server--Heartbleed
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:REMATCH_6--Secure_Server--Heartbleed
+  source-location: /challenge/challenges/REMATCH_6--Secure_Server--Heartbleed/src
+  test-harness:
+    command: /challenge/test.sh REMATCH_6--Secure_Server--Heartbleed __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'RRPN'
+    command_clean: rm -f 'RRPN'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/RRPN
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:RRPN
+  source-location: /challenge/challenges/RRPN/src
+  test-harness:
+    command: /challenge/test.sh RRPN __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Recipe_Database'
+    command_clean: rm -f 'Recipe_Database'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Recipe_Database
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Recipe_Database
+  source-location: /challenge/challenges/Recipe_Database/src
+  test-harness:
+    command: /challenge/test.sh Recipe_Database __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Recipe_and_Pantry_Manager'
+    command_clean: rm -f 'Recipe_and_Pantry_Manager'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Recipe_and_Pantry_Manager
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Recipe_and_Pantry_Manager
+  source-location: /challenge/challenges/Recipe_and_Pantry_Manager/src
+  test-harness:
+    command: /challenge/test.sh Recipe_and_Pantry_Manager __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Rejistar'
+    command_clean: rm -f 'Rejistar'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Rejistar
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Rejistar
+  source-location: /challenge/challenges/Rejistar/src
+  test-harness:
+    command: /challenge/test.sh Rejistar __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Resort_Modeller'
+    command_clean: rm -f 'Resort_Modeller'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Resort_Modeller
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Resort_Modeller
+  source-location: /challenge/challenges/Resort_Modeller/src
+  test-harness:
+    command: /challenge/test.sh Resort_Modeller __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'SAuth'
+    command_clean: rm -f 'SAuth'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/SAuth
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:SAuth
+  source-location: /challenge/challenges/SAuth/src
+  test-harness:
+    command: /challenge/test.sh SAuth __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'SCUBA_Dive_Logging'
+    command_clean: rm -f 'SCUBA_Dive_Logging'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/SCUBA_Dive_Logging
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:SCUBA_Dive_Logging
+  source-location: /challenge/challenges/SCUBA_Dive_Logging/src
+  test-harness:
+    command: /challenge/test.sh SCUBA_Dive_Logging __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'SFTSCBSISS'
+    command_clean: rm -f 'SFTSCBSISS'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/SFTSCBSISS
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:SFTSCBSISS
+  source-location: /challenge/challenges/SFTSCBSISS/src
+  test-harness:
+    command: /challenge/test.sh SFTSCBSISS __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'SIGSEGV'
+    command_clean: rm -f 'SIGSEGV'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/SIGSEGV
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:SIGSEGV
+  source-location: /challenge/challenges/SIGSEGV/src
+  test-harness:
+    command: /challenge/test.sh SIGSEGV __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'SLUR_reference_implementation'
+    command_clean: rm -f 'SLUR_reference_implementation'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/SLUR_reference_implementation
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:SLUR_reference_implementation
+  source-location: /challenge/challenges/SLUR_reference_implementation/src
+  test-harness:
+    command: /challenge/test.sh SLUR_reference_implementation __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'SOLFEDGE'
+    command_clean: rm -f 'SOLFEDGE'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/SOLFEDGE
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:SOLFEDGE
+  source-location: /challenge/challenges/SOLFEDGE/src
+  test-harness:
+    command: /challenge/test.sh SOLFEDGE __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'SPIFFS'
+    command_clean: rm -f 'SPIFFS'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/SPIFFS
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:SPIFFS
+  source-location: /challenge/challenges/SPIFFS/src
+  test-harness:
+    command: /challenge/test.sh SPIFFS __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Sad_Face_Template_Engine_SFTE'
+    command_clean: rm -f 'Sad_Face_Template_Engine_SFTE'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Sad_Face_Template_Engine_SFTE
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Sad_Face_Template_Engine_SFTE
+  source-location: /challenge/challenges/Sad_Face_Template_Engine_SFTE/src
+  test-harness:
+    command: /challenge/test.sh Sad_Face_Template_Engine_SFTE __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Sample_Shipgame'
+    command_clean: rm -f 'Sample_Shipgame'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Sample_Shipgame
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Sample_Shipgame
+  source-location: /challenge/challenges/Sample_Shipgame/src
+  test-harness:
+    command: /challenge/test.sh Sample_Shipgame __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Scrum_Database'
+    command_clean: rm -f 'Scrum_Database'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Scrum_Database
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Scrum_Database
+  source-location: /challenge/challenges/Scrum_Database/src
+  test-harness:
+    command: /challenge/test.sh Scrum_Database __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Secure_Compression'
+    command_clean: rm -f 'Secure_Compression'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Secure_Compression
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Secure_Compression
+  source-location: /challenge/challenges/Secure_Compression/src
+  test-harness:
+    command: /challenge/test.sh Secure_Compression __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Sensr'
+    command_clean: rm -f 'Sensr'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Sensr
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Sensr
+  source-location: /challenge/challenges/Sensr/src
+  test-harness:
+    command: /challenge/test.sh Sensr __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Shipgame'
+    command_clean: rm -f 'Shipgame'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Shipgame
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Shipgame
+  source-location: /challenge/challenges/Shipgame/src
+  test-harness:
+    command: /challenge/test.sh Shipgame __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Shortest_Path_Tree_Calculator'
+    command_clean: rm -f 'Shortest_Path_Tree_Calculator'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Shortest_Path_Tree_Calculator
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Shortest_Path_Tree_Calculator
+  source-location: /challenge/challenges/Shortest_Path_Tree_Calculator/src
+  test-harness:
+    command: /challenge/test.sh Shortest_Path_Tree_Calculator __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'ShoutCTF'
+    command_clean: rm -f 'ShoutCTF'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/ShoutCTF
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:ShoutCTF
+  source-location: /challenge/challenges/ShoutCTF/src
+  test-harness:
+    command: /challenge/test.sh ShoutCTF __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Simple_Stack_Machine'
+    command_clean: rm -f 'Simple_Stack_Machine'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Simple_Stack_Machine
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Simple_Stack_Machine
+  source-location: /challenge/challenges/Simple_Stack_Machine/src
+  test-harness:
+    command: /challenge/test.sh Simple_Stack_Machine __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Single-Sign-On'
+    command_clean: rm -f 'Single-Sign-On'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Single-Sign-On
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Single-Sign-On
+  source-location: /challenge/challenges/Single-Sign-On/src
+  test-harness:
+    command: /challenge/test.sh Single-Sign-On __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Snail_Mail'
+    command_clean: rm -f 'Snail_Mail'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Snail_Mail
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Snail_Mail
+  source-location: /challenge/challenges/Snail_Mail/src
+  test-harness:
+    command: /challenge/test.sh Snail_Mail __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Sorter'
+    command_clean: rm -f 'Sorter'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Sorter
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Sorter
+  source-location: /challenge/challenges/Sorter/src
+  test-harness:
+    command: /challenge/test.sh Sorter __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Space_Attackers'
+    command_clean: rm -f 'Space_Attackers'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Space_Attackers
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Space_Attackers
+  source-location: /challenge/challenges/Space_Attackers/src
+  test-harness:
+    command: /challenge/test.sh Space_Attackers __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Square_Rabbit'
+    command_clean: rm -f 'Square_Rabbit'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Square_Rabbit
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Square_Rabbit
+  source-location: /challenge/challenges/Square_Rabbit/src
+  test-harness:
+    command: /challenge/test.sh Square_Rabbit __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Stock_Exchange_Simulator'
+    command_clean: rm -f 'Stock_Exchange_Simulator'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Stock_Exchange_Simulator
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Stock_Exchange_Simulator
+  source-location: /challenge/challenges/Stock_Exchange_Simulator/src
+  test-harness:
+    command: /challenge/test.sh Stock_Exchange_Simulator __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Street_map_service'
+    command_clean: rm -f 'Street_map_service'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Street_map_service
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Street_map_service
+  source-location: /challenge/challenges/Street_map_service/src
+  test-harness:
+    command: /challenge/test.sh Street_map_service __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'String_Info_Calculator'
+    command_clean: rm -f 'String_Info_Calculator'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/String_Info_Calculator
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:String_Info_Calculator
+  source-location: /challenge/challenges/String_Info_Calculator/src
+  test-harness:
+    command: /challenge/test.sh String_Info_Calculator __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'String_Storage_and_Retrieval'
+    command_clean: rm -f 'String_Storage_and_Retrieval'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/String_Storage_and_Retrieval
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:String_Storage_and_Retrieval
+  source-location: /challenge/challenges/String_Storage_and_Retrieval/src
+  test-harness:
+    command: /challenge/test.sh String_Storage_and_Retrieval __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'TAINTEDLOVE'
+    command_clean: rm -f 'TAINTEDLOVE'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/TAINTEDLOVE
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:TAINTEDLOVE
+  source-location: /challenge/challenges/TAINTEDLOVE/src
+  test-harness:
+    command: /challenge/test.sh TAINTEDLOVE __ID__
+    context: /challenge
+    failing: 4
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'TFTTP'
+    command_clean: rm -f 'TFTTP'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/TFTTP
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:TFTTP
+  source-location: /challenge/challenges/TFTTP/src
+  test-harness:
+    command: /challenge/test.sh TFTTP __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'TIACA'
+    command_clean: rm -f 'TIACA'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/TIACA
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:TIACA
+  source-location: /challenge/challenges/TIACA/src
+  test-harness:
+    command: /challenge/test.sh TIACA __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'TVS'
+    command_clean: rm -f 'TVS'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/TVS
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:TVS
+  source-location: /challenge/challenges/TVS/src
+  test-harness:
+    command: /challenge/test.sh TVS __ID__
+    context: /challenge
+    failing: 7
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Tennis_Ball_Motion_Calculator'
+    command_clean: rm -f 'Tennis_Ball_Motion_Calculator'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Tennis_Ball_Motion_Calculator
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Tennis_Ball_Motion_Calculator
+  source-location: /challenge/challenges/Tennis_Ball_Motion_Calculator/src
+  test-harness:
+    command: /challenge/test.sh Tennis_Ball_Motion_Calculator __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Terrible_Ticket_Tracker'
+    command_clean: rm -f 'Terrible_Ticket_Tracker'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Terrible_Ticket_Tracker
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Terrible_Ticket_Tracker
+  source-location: /challenge/challenges/Terrible_Ticket_Tracker/src
+  test-harness:
+    command: /challenge/test.sh Terrible_Ticket_Tracker __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'TextSearch'
+    command_clean: rm -f 'TextSearch'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/TextSearch
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:TextSearch
+  source-location: /challenge/challenges/TextSearch/src
+  test-harness:
+    command: /challenge/test.sh TextSearch __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'The_Longest_Road'
+    command_clean: rm -f 'The_Longest_Road'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/The_Longest_Road
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:The_Longest_Road
+  source-location: /challenge/challenges/The_Longest_Road/src
+  test-harness:
+    command: /challenge/test.sh The_Longest_Road __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Thermal_Controller_v2'
+    command_clean: rm -f 'Thermal_Controller_v2'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Thermal_Controller_v2
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Thermal_Controller_v2
+  source-location: /challenge/challenges/Thermal_Controller_v2/src
+  test-harness:
+    command: /challenge/test.sh Thermal_Controller_v2 __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Thermal_Controller_v3'
+    command_clean: rm -f 'Thermal_Controller_v3'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Thermal_Controller_v3
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Thermal_Controller_v3
+  source-location: /challenge/challenges/Thermal_Controller_v3/src
+  test-harness:
+    command: /challenge/test.sh Thermal_Controller_v3 __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Tick-A-Tack'
+    command_clean: rm -f 'Tick-A-Tack'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Tick-A-Tack
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Tick-A-Tack
+  source-location: /challenge/challenges/Tick-A-Tack/src
+  test-harness:
+    command: /challenge/test.sh Tick-A-Tack __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'UTF-late'
+    command_clean: rm -f 'UTF-late'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/UTF-late
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:UTF-late
+  source-location: /challenge/challenges/UTF-late/src
+  test-harness:
+    command: /challenge/test.sh UTF-late __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'User_Manager'
+    command_clean: rm -f 'User_Manager'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/User_Manager
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:User_Manager
+  source-location: /challenge/challenges/User_Manager/src
+  test-harness:
+    command: /challenge/test.sh User_Manager __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'ValveChecks'
+    command_clean: rm -f 'ValveChecks'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/ValveChecks
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:ValveChecks
+  source-location: /challenge/challenges/ValveChecks/src
+  test-harness:
+    command: /challenge/test.sh ValveChecks __ID__
+    context: /challenge
+    failing: 6
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Vector_Graphics_2'
+    command_clean: rm -f 'Vector_Graphics_2'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Vector_Graphics_2
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Vector_Graphics_2
+  source-location: /challenge/challenges/Vector_Graphics_2/src
+  test-harness:
+    command: /challenge/test.sh Vector_Graphics_2 __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Vector_Graphics_Format'
+    command_clean: rm -f 'Vector_Graphics_Format'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Vector_Graphics_Format
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Vector_Graphics_Format
+  source-location: /challenge/challenges/Vector_Graphics_Format/src
+  test-harness:
+    command: /challenge/test.sh Vector_Graphics_Format __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Venture_Calculator'
+    command_clean: rm -f 'Venture_Calculator'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Venture_Calculator
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Venture_Calculator
+  source-location: /challenge/challenges/Venture_Calculator/src
+  test-harness:
+    command: /challenge/test.sh Venture_Calculator __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Virtual_Machine'
+    command_clean: rm -f 'Virtual_Machine'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Virtual_Machine
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Virtual_Machine
+  source-location: /challenge/challenges/Virtual_Machine/src
+  test-harness:
+    command: /challenge/test.sh Virtual_Machine __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'Water_Treatment_Facility_Simulator'
+    command_clean: rm -f 'Water_Treatment_Facility_Simulator'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/Water_Treatment_Facility_Simulator
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:Water_Treatment_Facility_Simulator
+  source-location: /challenge/challenges/Water_Treatment_Facility_Simulator/src
+  test-harness:
+    command: /challenge/test.sh Water_Treatment_Facility_Simulator __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'WhackJack'
+    command_clean: rm -f 'WhackJack'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/WhackJack
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:WhackJack
+  source-location: /challenge/challenges/WhackJack/src
+  test-harness:
+    command: /challenge/test.sh WhackJack __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'WordCompletion'
+    command_clean: rm -f 'WordCompletion'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/WordCompletion
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:WordCompletion
+  source-location: /challenge/challenges/WordCompletion/src
+  test-harness:
+    command: /challenge/test.sh WordCompletion __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'XStore'
+    command_clean: rm -f 'XStore'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/XStore
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:XStore
+  source-location: /challenge/challenges/XStore/src
+  test-harness:
+    command: /challenge/test.sh XStore __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'anagram_game'
+    command_clean: rm -f 'anagram_game'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/anagram_game
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:anagram_game
+  source-location: /challenge/challenges/anagram_game/src
+  test-harness:
+    command: /challenge/test.sh anagram_game __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'basic_emulator'
+    command_clean: rm -f 'basic_emulator'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/basic_emulator
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:basic_emulator
+  source-location: /challenge/challenges/basic_emulator/src
+  test-harness:
+    command: /challenge/test.sh basic_emulator __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'basic_messaging'
+    command_clean: rm -f 'basic_messaging'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/basic_messaging
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:basic_messaging
+  source-location: /challenge/challenges/basic_messaging/src
+  test-harness:
+    command: /challenge/test.sh basic_messaging __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'chess_mimic'
+    command_clean: rm -f 'chess_mimic'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/chess_mimic
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:chess_mimic
+  source-location: /challenge/challenges/chess_mimic/src
+  test-harness:
+    command: /challenge/test.sh chess_mimic __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'commerce_webscale'
+    command_clean: rm -f 'commerce_webscale'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/commerce_webscale
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:commerce_webscale
+  source-location: /challenge/challenges/commerce_webscale/src
+  test-harness:
+    command: /challenge/test.sh commerce_webscale __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'cotton_swab_arithmetic'
+    command_clean: rm -f 'cotton_swab_arithmetic'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/cotton_swab_arithmetic
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:cotton_swab_arithmetic
+  source-location: /challenge/challenges/cotton_swab_arithmetic/src
+  test-harness:
+    command: /challenge/test.sh cotton_swab_arithmetic __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'cyber_blogger'
+    command_clean: rm -f 'cyber_blogger'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/cyber_blogger
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:cyber_blogger
+  source-location: /challenge/challenges/cyber_blogger/src
+  test-harness:
+    command: /challenge/test.sh cyber_blogger __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'electronictrading'
+    command_clean: rm -f 'electronictrading'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/electronictrading
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:electronictrading
+  source-location: /challenge/challenges/electronictrading/src
+  test-harness:
+    command: /challenge/test.sh electronictrading __ID__
+    context: /challenge
+    failing: 5
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'expression_database'
+    command_clean: rm -f 'expression_database'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/expression_database
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:expression_database
+  source-location: /challenge/challenges/expression_database/src
+  test-harness:
+    command: /challenge/test.sh expression_database __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'greeter'
+    command_clean: rm -f 'greeter'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/greeter
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:greeter
+  source-location: /challenge/challenges/greeter/src
+  test-harness:
+    command: /challenge/test.sh greeter __ID__
+    context: /challenge
+    failing: 4
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'hawaii_sets'
+    command_clean: rm -f 'hawaii_sets'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/hawaii_sets
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:hawaii_sets
+  source-location: /challenge/challenges/hawaii_sets/src
+  test-harness:
+    command: /challenge/test.sh hawaii_sets __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'humaninterface'
+    command_clean: rm -f 'humaninterface'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/humaninterface
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:humaninterface
+  source-location: /challenge/challenges/humaninterface/src
+  test-harness:
+    command: /challenge/test.sh humaninterface __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'matrices_for_sale'
+    command_clean: rm -f 'matrices_for_sale'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/matrices_for_sale
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:matrices_for_sale
+  source-location: /challenge/challenges/matrices_for_sale/src
+  test-harness:
+    command: /challenge/test.sh matrices_for_sale __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'middleout'
+    command_clean: rm -f 'middleout'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/middleout
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:middleout
+  source-location: /challenge/challenges/middleout/src
+  test-harness:
+    command: /challenge/test.sh middleout __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'middleware_handshake'
+    command_clean: rm -f 'middleware_handshake'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/middleware_handshake
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:middleware_handshake
+  source-location: /challenge/challenges/middleware_handshake/src
+  test-harness:
+    command: /challenge/test.sh middleware_handshake __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'netstorage'
+    command_clean: rm -f 'netstorage'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/netstorage
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:netstorage
+  source-location: /challenge/challenges/netstorage/src
+  test-harness:
+    command: /challenge/test.sh netstorage __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'online_job_application'
+    command_clean: rm -f 'online_job_application'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/online_job_application
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:online_job_application
+  source-location: /challenge/challenges/online_job_application/src
+  test-harness:
+    command: /challenge/test.sh online_job_application __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'online_job_application2'
+    command_clean: rm -f 'online_job_application2'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/online_job_application2
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:online_job_application2
+  source-location: /challenge/challenges/online_job_application2/src
+  test-harness:
+    command: /challenge/test.sh online_job_application2 __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'payroll'
+    command_clean: rm -f 'payroll'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/payroll
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:payroll
+  source-location: /challenge/challenges/payroll/src
+  test-harness:
+    command: /challenge/test.sh payroll __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'pizza_ordering_system'
+    command_clean: rm -f 'pizza_ordering_system'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/pizza_ordering_system
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:pizza_ordering_system
+  source-location: /challenge/challenges/pizza_ordering_system/src
+  test-harness:
+    command: /challenge/test.sh pizza_ordering_system __ID__
+    context: /challenge
+    failing: 3
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'reallystream'
+    command_clean: rm -f 'reallystream'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/reallystream
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:reallystream
+  source-location: /challenge/challenges/reallystream/src
+  test-harness:
+    command: /challenge/test.sh reallystream __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'root64_and_parcour'
+    command_clean: rm -f 'root64_and_parcour'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/root64_and_parcour
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:root64_and_parcour
+  source-location: /challenge/challenges/root64_and_parcour/src
+  test-harness:
+    command: /challenge/test.sh root64_and_parcour __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'router_simulator'
+    command_clean: rm -f 'router_simulator'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/router_simulator
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:router_simulator
+  source-location: /challenge/challenges/router_simulator/src
+  test-harness:
+    command: /challenge/test.sh router_simulator __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'simpleOCR'
+    command_clean: rm -f 'simpleOCR'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/simpleOCR
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:simpleOCR
+  source-location: /challenge/challenges/simpleOCR/src
+  test-harness:
+    command: /challenge/test.sh simpleOCR __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'simple_integer_calculator'
+    command_clean: rm -f 'simple_integer_calculator'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/simple_integer_calculator
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:simple_integer_calculator
+  source-location: /challenge/challenges/simple_integer_calculator/src
+  test-harness:
+    command: /challenge/test.sh simple_integer_calculator __ID__
+    context: /challenge
+    failing: 4
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'simplenote'
+    command_clean: rm -f 'simplenote'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/simplenote
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:simplenote
+  source-location: /challenge/challenges/simplenote/src
+  test-harness:
+    command: /challenge/test.sh simplenote __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'stack_vm'
+    command_clean: rm -f 'stack_vm'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/stack_vm
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:stack_vm
+  source-location: /challenge/challenges/stack_vm/src
+  test-harness:
+    command: /challenge/test.sh stack_vm __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'stream_vm'
+    command_clean: rm -f 'stream_vm'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/stream_vm
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:stream_vm
+  source-location: /challenge/challenges/stream_vm/src
+  test-harness:
+    command: /challenge/test.sh stream_vm __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'stream_vm2'
+    command_clean: rm -f 'stream_vm2'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/stream_vm2
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:stream_vm2
+  source-location: /challenge/challenges/stream_vm2/src
+  test-harness:
+    command: /challenge/test.sh stream_vm2 __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'tribute'
+    command_clean: rm -f 'tribute'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/tribute
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:tribute
+  source-location: /challenge/challenges/tribute/src
+  test-harness:
+    command: /challenge/test.sh tribute __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'university_enrollment'
+    command_clean: rm -f 'university_enrollment'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/university_enrollment
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:university_enrollment
+  source-location: /challenge/challenges/university_enrollment/src
+  test-harness:
+    command: /challenge/test.sh university_enrollment __ID__
+    context: /challenge
+    failing: 2
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'vFilter'
+    command_clean: rm -f 'vFilter'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/vFilter
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:vFilter
+  source-location: /challenge/challenges/vFilter/src
+  test-harness:
+    command: /challenge/test.sh vFilter __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'virtual_pet'
+    command_clean: rm -f 'virtual_pet'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/virtual_pet
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:virtual_pet
+  source-location: /challenge/challenges/virtual_pet/src
+  test-harness:
+    command: /challenge/test.sh virtual_pet __ID__
+    context: /challenge
+    failing: 4
+    passing: 200
+    time-limit: 30
+    type: genprog
+- compiler:
+    command: make 'yolodex'
+    command_clean: rm -f 'yolodex'
+    command_with_instrumentation: TODO
+    context: /challenge/build/challenges/yolodex
+    time-limit: 30
+    type: simple
+  coverage:
+    files-to-instrument:
+    - TODO
+    type: gcov
+  dataset: cbmultios
+  image: christimperley/cbmultios
+  languages:
+  - C
+  name: cbmultios:yolodex
+  source-location: /challenge/challenges/yolodex/src
+  test-harness:
+    command: /challenge/test.sh yolodex __ID__
+    context: /challenge
+    failing: 1
+    passing: 200
+    time-limit: 30
+    type: genprog
+version: '1.0'
