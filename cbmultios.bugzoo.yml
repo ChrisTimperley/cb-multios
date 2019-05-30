@@ -25,7 +25,7 @@ bugs:
     command: /challenge/test.sh 3D_Image_Toolkit __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -49,7 +49,7 @@ bugs:
     command: /challenge/test.sh AIS-Lite __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -73,7 +73,7 @@ bugs:
     command: /challenge/test.sh ASCII_Content_Server __ID__
     context: /challenge
     failing: 5
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -97,7 +97,7 @@ bugs:
     command: /challenge/test.sh ASL6parse __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -121,7 +121,7 @@ bugs:
     command: /challenge/test.sh A_Game_of_Chance __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -145,7 +145,7 @@ bugs:
     command: /challenge/test.sh Accel __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -169,7 +169,7 @@ bugs:
     command: /challenge/test.sh Audio_Visualizer __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -193,7 +193,7 @@ bugs:
     command: /challenge/test.sh Azurad __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -217,7 +217,7 @@ bugs:
     command: /challenge/test.sh BIRC __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -241,7 +241,7 @@ bugs:
     command: /challenge/test.sh Barcoder __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -265,7 +265,7 @@ bugs:
     command: /challenge/test.sh BitBlaster __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -289,7 +289,7 @@ bugs:
     command: /challenge/test.sh Bloomy_Sunday __ID__
     context: /challenge
     failing: 6
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -313,7 +313,7 @@ bugs:
     command: /challenge/test.sh Blubber __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -337,7 +337,7 @@ bugs:
     command: /challenge/test.sh Board_Game __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -361,7 +361,7 @@ bugs:
     command: /challenge/test.sh BudgIT __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -385,7 +385,7 @@ bugs:
     command: /challenge/test.sh CGC_Board __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -409,7 +409,7 @@ bugs:
     command: /challenge/test.sh CGC_File_System __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -433,7 +433,7 @@ bugs:
     command: /challenge/test.sh CGC_Hangman_Game __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -457,7 +457,7 @@ bugs:
     command: /challenge/test.sh CGC_Image_Parser __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -481,7 +481,7 @@ bugs:
     command: /challenge/test.sh CGC_Planet_Markup_Language_Parser __ID__
     context: /challenge
     failing: 7
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -505,7 +505,7 @@ bugs:
     command: /challenge/test.sh CGC_Symbol_Viewer_CSV __ID__
     context: /challenge
     failing: 4
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -529,7 +529,7 @@ bugs:
     command: /challenge/test.sh CGC_Video_Format_Parser_and_Viewer __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -553,7 +553,7 @@ bugs:
     command: /challenge/test.sh CLOUDCOMPUTE __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -577,7 +577,7 @@ bugs:
     command: /challenge/test.sh CML __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -601,7 +601,7 @@ bugs:
     command: /challenge/test.sh CNMP __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -625,7 +625,7 @@ bugs:
     command: /challenge/test.sh COLLIDEOSCOPE __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -649,7 +649,7 @@ bugs:
     command: /challenge/test.sh CTTP __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -673,7 +673,7 @@ bugs:
     command: /challenge/test.sh CableGrind __ID__
     context: /challenge
     failing: 181
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -697,7 +697,7 @@ bugs:
     command: /challenge/test.sh CableGrindLlama __ID__
     context: /challenge
     failing: 118
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -721,7 +721,7 @@ bugs:
     command: /challenge/test.sh Carbonate __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -745,7 +745,7 @@ bugs:
     command: /challenge/test.sh Casino_Games __ID__
     context: /challenge
     failing: 4
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -770,7 +770,7 @@ bugs:
       __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -794,7 +794,7 @@ bugs:
     command: /challenge/test.sh Character_Statistics __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -818,7 +818,7 @@ bugs:
     command: /challenge/test.sh Charter __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -842,7 +842,7 @@ bugs:
     command: /challenge/test.sh Checkmate __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -866,7 +866,7 @@ bugs:
     command: /challenge/test.sh Childs_Game __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -890,7 +890,7 @@ bugs:
     command: /challenge/test.sh Corinth __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -914,7 +914,7 @@ bugs:
     command: /challenge/test.sh Cromulence_All_Service __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -938,7 +938,7 @@ bugs:
     command: /challenge/test.sh DFARS_Sample_Service __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -962,7 +962,7 @@ bugs:
     command: /challenge/test.sh Diary_Parser __ID__
     context: /challenge
     failing: 4
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -986,7 +986,7 @@ bugs:
     command: /challenge/test.sh Differ __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1010,7 +1010,7 @@ bugs:
     command: /challenge/test.sh Diophantine_Password_Wallet __ID__
     context: /challenge
     failing: 5
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1034,7 +1034,7 @@ bugs:
     command: /challenge/test.sh Dive_Logger __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1058,7 +1058,7 @@ bugs:
     command: /challenge/test.sh Divelogger2 __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1082,7 +1082,7 @@ bugs:
     command: /challenge/test.sh Document_Rendering_Engine __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1106,7 +1106,7 @@ bugs:
     command: /challenge/test.sh Dungeon_Master __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1130,7 +1130,7 @@ bugs:
     command: /challenge/test.sh ECM_TCM_Simulator __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1154,7 +1154,7 @@ bugs:
     command: /challenge/test.sh Eddy __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1178,7 +1178,7 @@ bugs:
     command: /challenge/test.sh Email_System_2 __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1202,7 +1202,7 @@ bugs:
     command: /challenge/test.sh Enslavednode_chat __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1226,7 +1226,7 @@ bugs:
     command: /challenge/test.sh Estadio __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1250,7 +1250,7 @@ bugs:
     command: /challenge/test.sh EternalPass __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1274,7 +1274,7 @@ bugs:
     command: /challenge/test.sh FASTLANE __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1298,7 +1298,7 @@ bugs:
     command: /challenge/test.sh FISHYXML __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1322,7 +1322,7 @@ bugs:
     command: /challenge/test.sh FSK_BBS __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1346,7 +1346,7 @@ bugs:
     command: /challenge/test.sh FSK_Messaging_Service __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1370,7 +1370,7 @@ bugs:
     command: /challenge/test.sh FUN __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1394,7 +1394,7 @@ bugs:
     command: /challenge/test.sh FablesReport __ID__
     context: /challenge
     failing: 5
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1418,7 +1418,7 @@ bugs:
     command: /challenge/test.sh FaceMag __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1442,7 +1442,7 @@ bugs:
     command: /challenge/test.sh Facilities_Access_Control_System __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1466,7 +1466,7 @@ bugs:
     command: /challenge/test.sh FailAV __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1490,7 +1490,7 @@ bugs:
     command: /challenge/test.sh FileSys __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1514,7 +1514,7 @@ bugs:
     command: /challenge/test.sh Filesystem_Command_Shell __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1538,7 +1538,7 @@ bugs:
     command: /challenge/test.sh Finicky_File_Folder __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1562,7 +1562,7 @@ bugs:
     command: /challenge/test.sh Flash_File_System __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1586,7 +1586,7 @@ bugs:
     command: /challenge/test.sh Flight_Routes __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1610,7 +1610,7 @@ bugs:
     command: /challenge/test.sh Fortress __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1634,7 +1634,7 @@ bugs:
     command: /challenge/test.sh GPS_Tracker __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1658,7 +1658,7 @@ bugs:
     command: /challenge/test.sh GREYMATTER __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1682,7 +1682,7 @@ bugs:
     command: /challenge/test.sh Game_Night __ID__
     context: /challenge
     failing: 4
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1706,7 +1706,7 @@ bugs:
     command: /challenge/test.sh Glue __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1730,7 +1730,7 @@ bugs:
     command: /challenge/test.sh GreatView __ID__
     context: /challenge
     failing: 4
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1754,7 +1754,7 @@ bugs:
     command: /challenge/test.sh Gridder __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1778,7 +1778,7 @@ bugs:
     command: /challenge/test.sh Griswold __ID__
     context: /challenge
     failing: 4
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1802,7 +1802,7 @@ bugs:
     command: /challenge/test.sh Grit __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1826,7 +1826,7 @@ bugs:
     command: /challenge/test.sh H20FlowInc __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1850,7 +1850,7 @@ bugs:
     command: /challenge/test.sh HIGHCOO __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1874,7 +1874,7 @@ bugs:
     command: /challenge/test.sh HackMan __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1898,7 +1898,7 @@ bugs:
     command: /challenge/test.sh Headscratch __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1922,7 +1922,7 @@ bugs:
     command: /challenge/test.sh HeartThrob __ID__
     context: /challenge
     failing: 4
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1946,7 +1946,7 @@ bugs:
     command: /challenge/test.sh HighFrequencyTradingAlgo __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1970,7 +1970,7 @@ bugs:
     command: /challenge/test.sh Hug_Game __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -1994,7 +1994,7 @@ bugs:
     command: /challenge/test.sh INSULATR __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2018,7 +2018,7 @@ bugs:
     command: /challenge/test.sh Image_Compressor __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2042,7 +2042,7 @@ bugs:
     command: /challenge/test.sh KKVS __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2066,7 +2066,7 @@ bugs:
     command: /challenge/test.sh KTY_Pretty_Printer __ID__
     context: /challenge
     failing: 5
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2090,7 +2090,7 @@ bugs:
     command: /challenge/test.sh Kaprica_Go __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2114,7 +2114,7 @@ bugs:
     command: /challenge/test.sh Kaprica_Script_Interpreter __ID__
     context: /challenge
     failing: 9
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2138,7 +2138,7 @@ bugs:
     command: /challenge/test.sh LAN_Simulator __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2162,7 +2162,7 @@ bugs:
     command: /challenge/test.sh LMS __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2186,7 +2186,7 @@ bugs:
     command: /challenge/test.sh LazyCalc __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2210,7 +2210,7 @@ bugs:
     command: /challenge/test.sh Lazybox __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2234,7 +2234,7 @@ bugs:
     command: /challenge/test.sh Loud_Square_Instant_Messaging_Protocol_LSIMP __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2258,7 +2258,7 @@ bugs:
     command: /challenge/test.sh LulzChat __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2282,7 +2282,7 @@ bugs:
     command: /challenge/test.sh Matchmaker __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2306,7 +2306,7 @@ bugs:
     command: /challenge/test.sh Material_Temperature_Simulation __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2330,7 +2330,7 @@ bugs:
     command: /challenge/test.sh Mathematical_Solver __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2354,7 +2354,7 @@ bugs:
     command: /challenge/test.sh Matrix_Math_Calculator __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2378,7 +2378,7 @@ bugs:
     command: /challenge/test.sh Message_Service __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2402,7 +2402,7 @@ bugs:
     command: /challenge/test.sh Messaging __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2426,7 +2426,7 @@ bugs:
     command: /challenge/test.sh Minimalistic_Memo_Manager_3M __ID__
     context: /challenge
     failing: 5
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2450,7 +2450,7 @@ bugs:
     command: /challenge/test.sh Mixology __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2474,7 +2474,7 @@ bugs:
     command: /challenge/test.sh Modern_Family_Tree __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2498,7 +2498,7 @@ bugs:
     command: /challenge/test.sh Monster_Game __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2522,7 +2522,7 @@ bugs:
     command: /challenge/test.sh Mount_Filemore __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2546,7 +2546,7 @@ bugs:
     command: /challenge/test.sh Movie_Rental_Service __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2570,7 +2570,7 @@ bugs:
     command: /challenge/test.sh Movie_Rental_Service_Redux __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2594,7 +2594,7 @@ bugs:
     command: /challenge/test.sh Multi_Arena_Pursuit_Simulator __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2618,7 +2618,7 @@ bugs:
     command: /challenge/test.sh Multi_User_Calendar __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2642,7 +2642,7 @@ bugs:
     command: /challenge/test.sh Multicast_Chat_Server __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2666,7 +2666,7 @@ bugs:
     command: /challenge/test.sh Multipass __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2690,7 +2690,7 @@ bugs:
     command: /challenge/test.sh Multipass2 __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2714,7 +2714,7 @@ bugs:
     command: /challenge/test.sh Multipass3 __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2738,7 +2738,7 @@ bugs:
     command: /challenge/test.sh Music_Store_Client __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2762,7 +2762,7 @@ bugs:
     command: /challenge/test.sh NarfAgainShell __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2786,7 +2786,7 @@ bugs:
     command: /challenge/test.sh NarfRPN __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2810,7 +2810,7 @@ bugs:
     command: /challenge/test.sh Network_File_System __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2834,7 +2834,7 @@ bugs:
     command: /challenge/test.sh Network_File_System_v3 __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2858,7 +2858,7 @@ bugs:
     command: /challenge/test.sh Network_Queuing_Simulator __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2882,7 +2882,7 @@ bugs:
     command: /challenge/test.sh Neural_House __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2906,7 +2906,7 @@ bugs:
     command: /challenge/test.sh NoHiC __ID__
     context: /challenge
     failing: 4
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2930,7 +2930,7 @@ bugs:
     command: /challenge/test.sh No_Paper._Not_Ever._NOPE __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2954,7 +2954,7 @@ bugs:
     command: /challenge/test.sh OTPSim __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -2978,7 +2978,7 @@ bugs:
     command: /challenge/test.sh OUTLAW __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3002,7 +3002,7 @@ bugs:
     command: /challenge/test.sh On_Sale __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3026,7 +3026,7 @@ bugs:
     command: /challenge/test.sh One_Amp __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3050,7 +3050,7 @@ bugs:
     command: /challenge/test.sh One_Vote __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3074,7 +3074,7 @@ bugs:
     command: /challenge/test.sh Order_Up __ID__
     context: /challenge
     failing: 9
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3098,7 +3098,7 @@ bugs:
     command: /challenge/test.sh Overflow_Parking __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3122,7 +3122,7 @@ bugs:
     command: /challenge/test.sh PCM_Message_decoder __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3146,7 +3146,7 @@ bugs:
     command: /challenge/test.sh PKK_Steganography __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3170,7 +3170,7 @@ bugs:
     command: /challenge/test.sh PRU __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3194,7 +3194,7 @@ bugs:
     command: /challenge/test.sh PTaaS __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3218,7 +3218,7 @@ bugs:
     command: /challenge/test.sh Pac_for_Edges __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3242,7 +3242,7 @@ bugs:
     command: /challenge/test.sh Packet_Analyzer __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3266,7 +3266,7 @@ bugs:
     command: /challenge/test.sh Packet_Receiver __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3290,7 +3290,7 @@ bugs:
     command: /challenge/test.sh Palindrome __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3314,7 +3314,7 @@ bugs:
     command: /challenge/test.sh Palindrome2 __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3338,7 +3338,7 @@ bugs:
     command: /challenge/test.sh Parking_Permit_Management_System_PPMS __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3362,7 +3362,7 @@ bugs:
     command: /challenge/test.sh Particle_Simulator __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3386,7 +3386,7 @@ bugs:
     command: /challenge/test.sh Pattern_Finder __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3410,7 +3410,7 @@ bugs:
     command: /challenge/test.sh Personal_Fitness_Manager __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3434,7 +3434,7 @@ bugs:
     command: /challenge/test.sh Pipelined __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3458,7 +3458,7 @@ bugs:
     command: /challenge/test.sh Printer __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3482,7 +3482,7 @@ bugs:
     command: /challenge/test.sh QUIETSQUARE __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3506,7 +3506,7 @@ bugs:
     command: /challenge/test.sh QuadtreeConways __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3530,7 +3530,7 @@ bugs:
     command: /challenge/test.sh Query_Calculator __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3554,7 +3554,7 @@ bugs:
     command: /challenge/test.sh RAM_based_filesystem __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3578,7 +3578,7 @@ bugs:
     command: /challenge/test.sh REDPILL __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3602,7 +3602,7 @@ bugs:
     command: /challenge/test.sh REMATCH_1--Hat_Trick--Morris_Worm __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3626,7 +3626,7 @@ bugs:
     command: /challenge/test.sh REMATCH_2--Mail_Server--Crackaddr __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3651,7 +3651,7 @@ bugs:
       __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3675,7 +3675,7 @@ bugs:
     command: /challenge/test.sh REMATCH_4--CGCRPC_Server--MS08-067 __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3699,7 +3699,7 @@ bugs:
     command: /challenge/test.sh REMATCH_5--File_Explorer--LNK_Bug __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3723,7 +3723,7 @@ bugs:
     command: /challenge/test.sh REMATCH_6--Secure_Server--Heartbleed __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3747,7 +3747,7 @@ bugs:
     command: /challenge/test.sh RRPN __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3771,7 +3771,7 @@ bugs:
     command: /challenge/test.sh Recipe_Database __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3795,7 +3795,7 @@ bugs:
     command: /challenge/test.sh Recipe_and_Pantry_Manager __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3819,7 +3819,7 @@ bugs:
     command: /challenge/test.sh Rejistar __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3843,7 +3843,7 @@ bugs:
     command: /challenge/test.sh Resort_Modeller __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3867,7 +3867,7 @@ bugs:
     command: /challenge/test.sh SAuth __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3891,7 +3891,7 @@ bugs:
     command: /challenge/test.sh SCUBA_Dive_Logging __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3915,7 +3915,7 @@ bugs:
     command: /challenge/test.sh SFTSCBSISS __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3939,7 +3939,7 @@ bugs:
     command: /challenge/test.sh SIGSEGV __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3963,7 +3963,7 @@ bugs:
     command: /challenge/test.sh SLUR_reference_implementation __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -3987,7 +3987,7 @@ bugs:
     command: /challenge/test.sh SOLFEDGE __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4011,7 +4011,7 @@ bugs:
     command: /challenge/test.sh SPIFFS __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4035,7 +4035,7 @@ bugs:
     command: /challenge/test.sh Sad_Face_Template_Engine_SFTE __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4059,7 +4059,7 @@ bugs:
     command: /challenge/test.sh Sample_Shipgame __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4083,7 +4083,7 @@ bugs:
     command: /challenge/test.sh Scrum_Database __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4107,7 +4107,7 @@ bugs:
     command: /challenge/test.sh Secure_Compression __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4131,7 +4131,7 @@ bugs:
     command: /challenge/test.sh Sensr __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4155,7 +4155,7 @@ bugs:
     command: /challenge/test.sh Shipgame __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4179,7 +4179,7 @@ bugs:
     command: /challenge/test.sh Shortest_Path_Tree_Calculator __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4203,7 +4203,7 @@ bugs:
     command: /challenge/test.sh ShoutCTF __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4227,7 +4227,7 @@ bugs:
     command: /challenge/test.sh Simple_Stack_Machine __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4251,7 +4251,7 @@ bugs:
     command: /challenge/test.sh Single-Sign-On __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4275,7 +4275,7 @@ bugs:
     command: /challenge/test.sh Snail_Mail __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4299,7 +4299,7 @@ bugs:
     command: /challenge/test.sh Sorter __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4323,7 +4323,7 @@ bugs:
     command: /challenge/test.sh Space_Attackers __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4347,7 +4347,7 @@ bugs:
     command: /challenge/test.sh Square_Rabbit __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4371,7 +4371,7 @@ bugs:
     command: /challenge/test.sh Stock_Exchange_Simulator __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4395,7 +4395,7 @@ bugs:
     command: /challenge/test.sh Street_map_service __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4419,7 +4419,7 @@ bugs:
     command: /challenge/test.sh String_Info_Calculator __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4443,7 +4443,7 @@ bugs:
     command: /challenge/test.sh String_Storage_and_Retrieval __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4467,7 +4467,7 @@ bugs:
     command: /challenge/test.sh TAINTEDLOVE __ID__
     context: /challenge
     failing: 4
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4491,7 +4491,7 @@ bugs:
     command: /challenge/test.sh TFTTP __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4515,7 +4515,7 @@ bugs:
     command: /challenge/test.sh TIACA __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4539,7 +4539,7 @@ bugs:
     command: /challenge/test.sh TVS __ID__
     context: /challenge
     failing: 7
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4563,7 +4563,7 @@ bugs:
     command: /challenge/test.sh Tennis_Ball_Motion_Calculator __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4587,7 +4587,7 @@ bugs:
     command: /challenge/test.sh Terrible_Ticket_Tracker __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4611,7 +4611,7 @@ bugs:
     command: /challenge/test.sh TextSearch __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4635,7 +4635,7 @@ bugs:
     command: /challenge/test.sh The_Longest_Road __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4659,7 +4659,7 @@ bugs:
     command: /challenge/test.sh Thermal_Controller_v2 __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4683,7 +4683,7 @@ bugs:
     command: /challenge/test.sh Thermal_Controller_v3 __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4707,7 +4707,7 @@ bugs:
     command: /challenge/test.sh Tick-A-Tack __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4731,7 +4731,7 @@ bugs:
     command: /challenge/test.sh UTF-late __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4755,7 +4755,7 @@ bugs:
     command: /challenge/test.sh User_Manager __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4779,7 +4779,7 @@ bugs:
     command: /challenge/test.sh ValveChecks __ID__
     context: /challenge
     failing: 6
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4803,7 +4803,7 @@ bugs:
     command: /challenge/test.sh Vector_Graphics_2 __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4827,7 +4827,7 @@ bugs:
     command: /challenge/test.sh Vector_Graphics_Format __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4851,7 +4851,7 @@ bugs:
     command: /challenge/test.sh Venture_Calculator __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4875,7 +4875,7 @@ bugs:
     command: /challenge/test.sh Virtual_Machine __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4899,7 +4899,7 @@ bugs:
     command: /challenge/test.sh Water_Treatment_Facility_Simulator __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4923,7 +4923,7 @@ bugs:
     command: /challenge/test.sh WhackJack __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4947,7 +4947,7 @@ bugs:
     command: /challenge/test.sh WordCompletion __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4971,7 +4971,7 @@ bugs:
     command: /challenge/test.sh XStore __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -4995,7 +4995,7 @@ bugs:
     command: /challenge/test.sh anagram_game __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5019,7 +5019,7 @@ bugs:
     command: /challenge/test.sh basic_emulator __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5043,7 +5043,7 @@ bugs:
     command: /challenge/test.sh basic_messaging __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5067,7 +5067,7 @@ bugs:
     command: /challenge/test.sh chess_mimic __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5091,7 +5091,7 @@ bugs:
     command: /challenge/test.sh commerce_webscale __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5115,7 +5115,7 @@ bugs:
     command: /challenge/test.sh cotton_swab_arithmetic __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5139,7 +5139,7 @@ bugs:
     command: /challenge/test.sh cyber_blogger __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5163,7 +5163,7 @@ bugs:
     command: /challenge/test.sh electronictrading __ID__
     context: /challenge
     failing: 5
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5187,7 +5187,7 @@ bugs:
     command: /challenge/test.sh expression_database __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5211,7 +5211,7 @@ bugs:
     command: /challenge/test.sh greeter __ID__
     context: /challenge
     failing: 4
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5235,7 +5235,7 @@ bugs:
     command: /challenge/test.sh hawaii_sets __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5259,7 +5259,7 @@ bugs:
     command: /challenge/test.sh humaninterface __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5283,7 +5283,7 @@ bugs:
     command: /challenge/test.sh matrices_for_sale __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5307,7 +5307,7 @@ bugs:
     command: /challenge/test.sh middleout __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5331,7 +5331,7 @@ bugs:
     command: /challenge/test.sh middleware_handshake __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5355,7 +5355,7 @@ bugs:
     command: /challenge/test.sh netstorage __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5379,7 +5379,7 @@ bugs:
     command: /challenge/test.sh online_job_application __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5403,7 +5403,7 @@ bugs:
     command: /challenge/test.sh online_job_application2 __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5427,7 +5427,7 @@ bugs:
     command: /challenge/test.sh payroll __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5451,7 +5451,7 @@ bugs:
     command: /challenge/test.sh pizza_ordering_system __ID__
     context: /challenge
     failing: 3
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5475,7 +5475,7 @@ bugs:
     command: /challenge/test.sh reallystream __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5499,7 +5499,7 @@ bugs:
     command: /challenge/test.sh root64_and_parcour __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5523,7 +5523,7 @@ bugs:
     command: /challenge/test.sh router_simulator __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5547,7 +5547,7 @@ bugs:
     command: /challenge/test.sh simpleOCR __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5571,7 +5571,7 @@ bugs:
     command: /challenge/test.sh simple_integer_calculator __ID__
     context: /challenge
     failing: 4
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5595,7 +5595,7 @@ bugs:
     command: /challenge/test.sh simplenote __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5619,7 +5619,7 @@ bugs:
     command: /challenge/test.sh stack_vm __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5643,7 +5643,7 @@ bugs:
     command: /challenge/test.sh stream_vm __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5667,7 +5667,7 @@ bugs:
     command: /challenge/test.sh stream_vm2 __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5691,7 +5691,7 @@ bugs:
     command: /challenge/test.sh tribute __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5715,7 +5715,7 @@ bugs:
     command: /challenge/test.sh university_enrollment __ID__
     context: /challenge
     failing: 2
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5739,7 +5739,7 @@ bugs:
     command: /challenge/test.sh vFilter __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5763,7 +5763,7 @@ bugs:
     command: /challenge/test.sh virtual_pet __ID__
     context: /challenge
     failing: 4
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 - compiler:
@@ -5787,7 +5787,7 @@ bugs:
     command: /challenge/test.sh yolodex __ID__
     context: /challenge
     failing: 1
-    passing: 200
+    passing: 100
     time-limit: 30
     type: genprog
 version: '1.0'

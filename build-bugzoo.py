@@ -6,7 +6,7 @@ FN_BUG_LIST = 'bugs.csv'
 FN_BUGZOO_FILE = 'cbmultios.bugzoo.yml'
 NAME_IMAGE = 'christimperley/cbmultios'
 NAME_DATASET = 'cbmultios'
-NUM_POLLS = 200
+NUM_POLLS = 100
 
 
 def describe_bug(name, num_povs):

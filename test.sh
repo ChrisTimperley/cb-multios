@@ -12,6 +12,7 @@ bin_challenge="${dir_build}/${name}"
 case $test_name in
   p*)
     test_name=${test_name#"p"}
+    test_name=$((test_name-1))
     test_file="${dir_xml}/GEN_00000_$(printf '%05d' ${test_name}).xml"
     # --failure_ok
     python cb-test.py --cb "${bin_challenge}" \
