@@ -38,7 +38,8 @@ RUN cd /tmp \
  && make install \
  && rm -rf /tmp/*
 COPY requirements.txt .
-RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt \
+ && pip install matplotlib==2.2.3
 # install clang-3.8:i386
 RUN dpkg --add-architecture i386 \
  && apt-get update \
